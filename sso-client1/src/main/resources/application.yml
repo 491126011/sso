@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+server:
+  port: 8081
+
+sso:
+  server:
+    url: http://localhost:8080
+    loginPath: /login
